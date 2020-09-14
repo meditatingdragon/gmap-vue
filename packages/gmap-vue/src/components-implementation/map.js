@@ -56,7 +56,7 @@ const events = [
 ];
 
 // Plain Google Maps methods exposed here for convenience
-const linkedMethods = ['panBy', 'panTo', 'panToBounds', 'fitBounds'].reduce(
+const linkedMethods = ['panBy', 'panTo', 'panToBounds', 'fitBounds', 'getBounds'].reduce(
   (all, methodName) => {
     // TODO: analyze if the following anonymous function can be an arrow function or a defined name
     // eslint-disable-next-line no-param-reassign, func-names -- false positive
